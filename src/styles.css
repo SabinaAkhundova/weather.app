@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(to top, #f3e7e9 0%, #d8e6fa 99%, #e3eeff 100%)
+    center top fixed;
+}
+h1 {
+  display: inline;
+  color: #338fcd;
+  padding-left: 350px;
+  font-size: 35px;
+}
+input,
+select,
+textarea {
+  color: #67aede;
+  border-radius: 15px;
+  border-color: aliceblue;
+  text-transform: capitalize;
+}
+
+input:focus {
+  color: #67aede;
+}
+.current-date {
+  color: #084d7c;
+  font-family: cursive;
+}
+
+.card-title {
+  color: #338fcd;
+}
+.card {
+  border-radius: 15px;
+  top: 60px;
+  background: linear-gradient(to bottom, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  border: #084d7c;
+  text-decoration: none;
+}
+.card-header {
+  background: #f3e7e9;
+  border-radius: 15px;
+  border: #084d7c;
+}
+li {
+  color: #338fcd;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 12px;
+}
+.list-group-item {
+  color: #084d7c;
+  background: radial-gradient(#4aa4df, #67ae);
+}
+a {
+  text-decoration: none;
+  color: #084d7c;
+  cursor: default;
+}
+.content {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+}
+.content-title {
+  color: #338fcd;
+}
+.content-text {
+  color: #084d7c;
+  text-decoration: solid;
+}
+
+.btn {
+  color: #084d7c;
+  border-radius: 15px;
+  margin-top: 15px;
+  background-color: #5a9bc7;
+  border-color: none;
+}
+.btn:hover {
+  border-color: #338fcd;
+  color: #173f5a;
+  background-color: #9acef1;
+}
+::placeholder {
+  border-radius: 15px;
+}
+
+h5 {
+  margin-left: 180px;
+  padding: 10px;
+}
+
+.source-link {
+  color: #173f5a;
+  text-transform: cursive;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 90px;
+}
+.giphy {
+  position: absolute;
+  right: 120px;
+  top: 250px;
+  height: 450px;
+  width: 450px;
+  border-radius: 15px;
+}
